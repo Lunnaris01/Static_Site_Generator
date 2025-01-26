@@ -25,7 +25,7 @@ class TestTextNode(unittest.TestCase):
 
     def test_repr(self):
         node = TextNode("We are testing the printing","bold","https://www.boot.dev")
-        expected = f'TextNode({"We are testing the printing"}, {"bold"}, {"https://www.boot.dev"})'
+        expected = f'TextNode({"We are testing the printing"}, {"bold"}, {"https://www.boot.dev"})\n'
         print(f'\nExpected: {expected}')
         actual = str(node)
         print(f'\nActual:  {actual}')
